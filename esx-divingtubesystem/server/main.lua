@@ -1,0 +1,10 @@
+ESX = exports["es_extended"]:getSharedObject()
+ESX.RegisterUsableItem('carremote', function(source)
+    TriggerClientEvent("qb-diving:client:UseGear", source)
+end)
+ESX.RegisterUsableItem("diving_fill", function(source)
+    local xPlayer = ESX.GetPlayerFromId(source)
+    xPlayer.removeInventoryItem('diving_fill', 1)
+    TriggerClientEvent("qb-diving:client:setoxygenlevel", source)
+end)
+
