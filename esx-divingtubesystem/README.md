@@ -1,9 +1,9 @@
-# qb-diving
-Diving Script For QB-Core
+# ESX-diving
+Diving Script For ESX-Core
 
 # License
 
-    QBCore Framework
+   from QBCore diving Framework
     Copyright (C) 2021 Joshua Eger
 
     This program is free software: you can redistribute it and/or modify
